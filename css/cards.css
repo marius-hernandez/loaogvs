@@ -1,0 +1,138 @@
+.container{
+    margin: 100px;
+}
+p{
+    font-size: 1vw;
+    margin: 0%;
+}
+h3{
+    font-size: 2vw;
+}
+h4{
+    font-size: 1vw;
+}
+.teacher{
+    margin-bottom: 25px;
+}
+.subject{
+    margin: 20px;
+}
+.line1{
+    margin-left: 200px;
+}
+ tr .details{
+    margin: 5px;
+    margin-left: 40px;
+}
+
+tr .details1{
+    margin: 10px;
+    margin-left: 40px;
+}
+ tr .signiture{
+     text-align: right;
+     margin: 5px;
+ }
+.parent{
+    margin: 20px;
+    text-align: center; 
+    font-size: 1vw;
+}
+tr .upper-left{
+    font-family: Arial, Helvetica, sans-serif;
+    width:50%;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+tr .majorn{
+    text-align: center; 
+    margin:3px;
+}
+tr .details2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+tr .others{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0%;
+}
+tr .right-details{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 80px;
+    font-size: 1vw;
+}
+tr .grades1{
+    margin: 0%;
+}
+
+input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+input{
+    width: 30px;
+    -moz-appearance: textfield;
+}
+tr .description{
+    font-weight: bold;
+     margin: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+     position: static;
+}
+.table11{
+    margin-left: 100px;
+    font-size: 2vw;
+    text-indent: 20px;
+    
+}
+table{
+    border-collapse: collapse;
+    font-size:2vw;
+}
+td .table22{
+    margin-left: 150px;
+    text-indent: 20px;
+}
+tr .title{
+    font-weight: bold;
+    text-align: center;
+}
+tr .fnt{
+    font-size: 1vw;
+}
+tr .bg-image{
+    background-image: 
+    url(../pics/loa.png),
+    url(../pics/deped.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 90% left 20%, bottom 90% right 20%;
+    background-size: 80px;
+}
+tr .detail22{
+    font-size: 1vw;
+    margin: 30px;
+}
+tr .lyceum{
+    font-size: 2vw;
+    text-indent:1px;
+    text-align: center;
+    margin: 0%; 
+    font-family: "Times New Roman", Times, serif;
+}
+tr .basic{
+    font-size: 1vw;
+
+}
+tr .Senior{
+    font-size: 1vw;
+}
+tr .progress{
+    font-size: 1vw;
+}

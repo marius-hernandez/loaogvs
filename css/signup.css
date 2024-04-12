@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbc64f;
+}
+.details{
+    font-size: 15px;
+}
+.container{
+    max-width:800px;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    text-align:center;
+    height: 500px;
+    padding-bottom: 0px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.container .title::before{
+    content: '';
+    position:relative;
+    left: 0;
+    bottom: 0;
+    top: 30px;
+    height: 3px;
+    width: 85px;
+    background-image: linear-gradient(150deg,#0000FF, yellow);
+
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 0 0px 0;
+    
+}
+form .user-details .input-box{
+    text-align: center;
+    margin: 15px 10px 5px 0;
+    width: calc(100% / 1 - 10px);
+}
+.user-details .input-box .user-details{
+    display: block;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 35px;
+    width:100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 12px;
+    border-bottom-width: 1px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: rgb(175, 171, 171);
+
+}
+.btn{
+    border: 1px solid	#696969;
+    background: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin: 5px;   
+    color:black;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: #bbbbbb;
+
+    
+}
+.select{
+    padding: 8px 12px;
+    color:  #333333;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.select :focus,
+.select :hover {
+    outline: none;
+    border: 1px solid #bbbbbb;
+}
+
+.select option {
+    background: #fff
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;  
+  }
+
+.call{
+    margin-bottom: 10px;
+}
+
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+h2{
+    text-align: left;
+}
+
+

@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: khaki;
+    
+}   
+.details{
+    font-size: 15px;
+}
+.container{
+    width: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+
+    position: absolute;
+    max-width: 400px;
+   
+
+    margin: auto;
+  padding: 100px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom: 0px;
+    top: 29px;
+    height: 3px;
+    width: 85px;
+    background-image: linear-gradient(150deg,#0000FF, yellow);
+}
+.container form .user-details{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 0 0px 0;
+    
+}
+form .user-details .input-box{
+    text-align: center;
+    margin: 15px 10px 5px 0;
+    width: calc(100% / 1 - 5px);
+}
+.user-details .input-box .user-details{
+    display: block;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 35px;
+    width:100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 12px;
+    border-bottom-width: 1px;
+    transition: all 0.3s ease;
+}
+.btn{
+    border: 1px solid	#696969;
+    background: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin: 5px;   
+    color:black;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: #bbbbbb;
+
+    
+}
+
+input, select, textarea {
+    width: 50px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+      
+
+  a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
